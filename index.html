@@ -17,18 +17,21 @@
 			background-color: grey; 
                 }
                 .container {
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    grid-template-rows: auto;
+                    display: flex;
+/*                     grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: auto; */
                     gap: 20px;
                     width: 100%;
-                    padding: 20px;
+	            padding: 20px;
+		    flex-wrap: wrap;
+		    justify-content: center;
                     box-sizing: border-box;
                 }
 
 		.container > div {
-		    height: 50px;
-		    width: 50px;
+		    height: 250px;
+		    width: 250px;
+		    text-align: center;
 		}
                 .container img {
                     max-width: 100%;
