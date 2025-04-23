@@ -1,71 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Display Images</title>
-    <style>
-        body {
-            width: 1920px;
-            height: 1080px;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: grey; 
-        }
-        .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: auto;
-            gap: 20px;
-            width: 100%;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        .container img {
-            max-width: 100%;
-            height: auto;
-        }
-        h1, h2, h3, h4 {
-            width: 100%;
-            text-align: center;
-            font-size: calc(2vw + 2vh);
-        }
-    </style>
-</head>
-<body>
-    <h1>VITEC Device Image Display test</h1>
-    <h2>M95-T123</h2>
-    <h3>Displaying Various Image Types</h3>
-    <div class="container">
-        <div>
-            <h4>PNG Image</h4>
-            <img src="https://www.vitec.com/typo3conf/ext/vitectemplate/Resources/Public/Images/logo-white.png" alt="PNG Image">
-        </div>
-        <div>
-            <h4>JPG Image</h4>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sunflower_from_Silesia2.jpg/960px-Sunflower_from_Silesia2.jpg?20091008132228" alt="JPG Image">
-        </div>
-        <div>
-            <h4>GIF Image</h4>
-            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTh1bXRsazlzZ29xdHNza242OGxzYzVrYmx1bWt1MzNoeDVja24xZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/116wwYf3ajIvrG/giphy.gif" alt="GIF Image">
-        </div>
-        <div>
-            <h4>JPEG Image</h4>
-            <img src="https://www.vitec.com/fileadmin/_processed_/3/5/csm_image-20231120-174657-12c76fd8_4f7996aaaf.jpeg" alt="JPEG Image">
-        </div>
-        <div>
-            <h4>JFIF Image</h4>
-            <img src="https://steemitimages.com/DQmS6FahucBfepBXtQJWDPZeAminFPgnwDazXN5L4kCyuBi/dbbb.jfif" alt="JFIF Image">
-        </div>
-        <div>
-            <h4>SVG Image</h4>
-            <img src="https://picsvg.com/example/bell.svg" alt="SVG Image">
-        </div>
-    </div>
-</body>
+    <head>
+    <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Display Images</title>
+        <style>
+                body {
+                    width: 1920px;
+                    height: 1080px;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+			background-color: grey; 
+                }
+                .container {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: auto;
+                    gap: 20px;
+                    width: 100%;
+                    padding: 20px;
+                    box-sizing: border-box;
+                }
+                .container img {
+                    max-width: 100%;
+                    height: auto;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>VITEC Device Image Display test</h1>
+        <h2>M95-T123</h2>
+        <h3>Displaying Various Image Types</h3>
+        <div class="container">
+            <div>
+                <h4>PNG Image</h4>
+                <img src="https://www.vitec.com/typo3conf/ext/vitectemplate/Resources/Public/Images/logo-white.png
+			" alt="PNG Image">
+            </div>
+            <div>
+                <h4>JPG Image</h4>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sunflower_from_Silesia2.jpg/960px-Sunflower_from_Silesia2.jpg?20091008132228" alt="JPG Image">
+            </div>
+            <div>
+                <h4>GIF Image</h4>
+                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTh1bXRsazlzZ29xdHNza242OGxzYzVrYmx1bWt1MzNoeDVja24xZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/116wwYf3ajIvrG/giphy.gif" alt="GIF Image">
+            </div>
+            <div>
+                <h4>JPEG Image</h4>
+                <img src="https://www.vitec.com/fileadmin/_processed_/3/5/csm_image-20231120-174657-12c76fd8_4f7996aaaf.jpeg" alt="JPEG Image">
+            </div>
+            <div>
+                <h4>JFIF Image</h4>
+                <img src="https://steemitimages.com/DQmS6FahucBfepBXtQJWDPZeAminFPgnwDazXN5L4kCyuBi/dbbb.jfif" alt="JFIF Image">
+            </div>
+            <div>
+                <h4>SVG Image</h4>
+                <img src="https://picsvg.com/example/bell.svg" alt="SVG Image">
+            </div>
+        </div>
+    </body>
 </html>
